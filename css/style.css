@@ -103,3 +103,145 @@ body{
 #check {
     display: none;
 }
+
+.healthy-height {
+    width: 520px;
+    height: 282px;
+    color: rgb(255, 255, 255);
+    margin: 28px 0px;
+    font-size: 78px;
+    font-weight: 900;
+}
+
+.paragraph-height {
+    height: 48px;
+    width: 520px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.join-now {
+    width: 224px;
+    height: 54px;
+    font-size: 18px;
+    border-radius: 39px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 83, 60);
+
+}
+
+.radius-one {
+    width: 224px;
+    height: 54px;
+    border-radius: 42px;
+    justify-content: center;
+    align-items: center;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+}
+
+.radius-two {
+    border-radius: 42px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    padding: 16px 40px 16px 40px;
+}
+
+.btn-primary {
+    background: rgba(48, 48, 48, 0.54);
+    padding: 20px 25px;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    width: 206px;
+    height: 96px;
+}
+
+.box-one {
+    margin-left: -100px;
+    margin-top: -150px;
+}
+
+.box-two {
+    margin-left: 240px;
+    margin-top: -410px;
+}
+
+.box-one {
+    margin-left: -100px;
+    margin-top: -150px;
+}
+
+.box-two {
+    margin-left: 240px;
+    margin-top: -410px;
+}
+
+.ball {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(230, 83, 60);
+    border-radius: 50%;
+    margin-left: -15px;
+    margin-top: -50px;
+}
+
+.exp-badge {
+    margin-top: -280px;
+}
+
+#video-tutorial-number {
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+}
+
+#video-tutorial {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+#video-tutorial-number2 {
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+}
+
+#video-tutorial2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.exp-badge {
+    margin-top: -280px;
+}
+
+#video-tutorial-number {
+    font-weight: 900;
+    font-size: 24px;
+    color: white;
+}
+
+#video-tutorial {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+#video-tutorial-number2 {
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+}
+
+#video-tutorial2 {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(239, 237, 232, 0.65);
+}
