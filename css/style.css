@@ -478,3 +478,50 @@ th {
 .p-team{
     color: rgba(255, 255, 255, .6);
 }
+
+.team {
+    text-align: center;
+}
+
+.p-team {
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.5)
+}
+
+.box-shado-one {
+    padding: 10px;
+    margin: 62px 0px;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 90px;
+}
+
+.all-image-box {
+    width: 400px;
+    height: 272px;
+    border-radius: 18px;
+}
+
+.all-image-box-six {
+    margin-bottom: -90px;
+}
+
+.image-text {
+    margin-left: 10px;
+}
+
+.image-text h1 {
+    margin-bottom: 0;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.image-text p {
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.5);
+}
