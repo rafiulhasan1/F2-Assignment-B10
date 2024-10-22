@@ -130,7 +130,6 @@ body{
     border-radius: 39px;
     color: rgb(255, 255, 255);
     background-color: rgb(230, 83, 60);
-
 }
 
 .radius-one {
@@ -292,4 +291,29 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.box-shado {
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    margin-bottom: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.colour {
+    color: white;
+}
+
+.run-image {
+    width: 366px;
+    height: 312px;
+    border-radius: 18px;
+    Object-fit: none;
+    object-position: 67% 30%;
+}
+
+.easily-flex {
+    display: flex;
+    justify-content: space-around;
 }
