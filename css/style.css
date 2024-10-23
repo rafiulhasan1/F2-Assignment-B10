@@ -584,6 +584,7 @@ th {
 
 /* media query part start */
 
+
 @media (max-width: 576px) {
     .navbar {
         flex-direction: row;
