@@ -581,3 +581,262 @@ th {
     font-size: 35px;
     font-weight: 900;
 }
+
+/* media query part start */
+
+@media (max-width: 576px) {
+    .navbar {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    #checkbtn {
+        display: block;
+        margin-bottom: -65px;
+        margin-left: 400px;
+        pointer-events: none;
+    }
+
+    .brand {
+        font-size: 3rem;
+        margin-right: auto;
+        margin-top: 25px;
+    }
+
+    .full-radious {
+        display: none;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-link {
+        color: white;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 576px) {
+
+    .navbar,
+    .nav-link,
+    .exp-badge,
+    .banner-image {
+        grid-template-columns: repeat(1, 1fr);
+        flex-direction: column;
+
+        .exp-badge {
+            margin-bottom: -650px;
+        }
+    }
+
+    .healthy-height {
+        margin-left: 56px;
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    .all-main-part {
+        margin-top: 1050px;
+    }
+
+    .your-habit {
+        margin-left: 0;
+        padding: 0 20px;
+    }
+
+    #habit {
+        width: 100%;
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .fitness {
+        width: 100%;
+        font-size: 12px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .display-image {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-left: 170px;
+    }
+
+    .img-circle {
+        width: 150px;
+        height: 150px;
+    }
+
+    .image-style {
+        font-size: 16px;
+        text-align: center;
+        margin-right: 150px;
+    }
+
+    .believe {
+        width: 100%;
+        text-align: center;
+        margin-left: -50px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .mile {
+        flex-wrap: wrap;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .colour {
+        margin-top: -230px;
+        margin-left: 40px;
+    }
+
+    .paragraph-height {
+        margin-left: 40px;
+    }
+
+    .box-shado {
+        width: 470px;
+        height: 531px;
+    }
+
+    .box-shado {
+        margin-left: -1px;
+    }
+
+    .run-image {
+        width: 287px;
+        height: 170px;
+        border-radius: 18px;
+        object-position: 67% 27%;
+    }
+
+    .run-image {
+        margin-left: -660px;
+        margin-bottom: -300px;
+    }
+
+    .join-now {
+        margin-left: 40px;
+        width: 287px;
+    }
+}
+
+/* Bmi media quary for mobile device start hare */
+@media screen and (max-width:576px) {
+    .calc {
+        padding: 30px;
+    }
+
+    .BMI-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .BMI {
+        padding: 30px;
+    }
+
+    .measure {
+        margin-right: 10px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .calc {
+        padding: 30px;
+    }
+
+    .BMI-container {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .BMI {
+        padding: 30px;
+    }
+
+    .measure {
+        margin-right: 10px;
+    }
+}
+
+/* Media Query for Mobile Devices start hare*/
+
+@media (max-width: 600px) {
+    .box-shado-one {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .all-image-box {
+        width: 400px;
+        height: 272px;
+        border-radius: 18px;
+        margin-top: 10px;
+
+    }
+
+    .mobile-device {
+        margin-top: 500px;
+    }
+
+    .p-team {
+        font-size: 14px;
+    }
+}
+
+
+
+/* Footer Part Media Query for Mobile Devices start hare */
+@media (max-width: 576px) {
+    .box-shado-two {
+        width: 100%;
+        height: 1000px;
+        margin: 20px 0;
+        padding: 20px;
+    }
+
+    .footer-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-one,
+    .footer-two,
+    .footer-three {
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .footer-style {
+        font-size: 70px;
+    }
+
+    .footer-style-one {
+        font-size: 32px;
+    }
+
+    .p-team {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .footer-hr {
+        width: 90%;
+    }
+}   
